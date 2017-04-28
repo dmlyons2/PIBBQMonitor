@@ -34,21 +34,21 @@ mpg321<br>
 
 Setup
 ============
-1.  Install node
-    sudo wget http://node-arm.herokuapp.com/node_latest_armhf.deb
-    sudo dpkg -i node_latest_armhf.deb
-    Make sure node install was good by checking "sudo node-v".  Should return node version.
-2.  Install python and other packages: <br>
-    sudo apt-get upgrade
-    sudo apt-get update
-    sudo apt-get install python-dev<br>
-    sudo apt-get install python-setuptools<br>
-    sudo easy_install rpi.gpio<br>
-    sudo apt-get install alsa-utils<br>
-    sudo apt-get install mpg321<br>
-    sudo apt-get install sqlite3<br>
-    sudo apt-get install libsqlite3-dev<br>
-    sudo apt-get install npm<br>
+1.  Install node  
+    `sudo wget http://node-arm.herokuapp.com/node_latest_armhf.deb`
+    `sudo dpkg -i node_latest_armhf.deb`
+    `Make sure node install was good by checking "sudo node-v".  Should return node version.`
+2.  Install python and other packages:  
+    `sudo apt-get upgrade`  
+    `sudo apt-get update`  
+    `sudo apt-get install python-dev`  
+    `sudo apt-get install python-setuptools`  
+    `sudo easy_install rpi.gpio`  
+    `sudo apt-get install alsa-utils`  
+    `sudo apt-get install mpg321`  
+    `sudo apt-get install sqlite3`  
+    `sudo apt-get install libsqlite3-dev`  
+    `sudo apt-get install npm`  
 3.  Install node dependencies with NPM
     npm install -g node-gyp
     npm install node-static
